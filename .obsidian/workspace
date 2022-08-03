@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "c8f6fcadc777e8f2",
+        "id": "676e54c753410b87",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -119,10 +119,12 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "f7e475589813af74",
+  "active": "676e54c753410b87",
   "lastOpenFiles": [
-    "01.임시메모/10분의 중요성.md",
+    "02.영구메모/영구메모-테스트.md",
+    "01.임시메모/무제노트.md",
     "01.임시메모/10분동안 줄넘기 하기.md",
+    "01.임시메모/10분의 중요성.md",
     "Template/Zettelkasten.md",
     "01.임시메모/10분의중요성.md"
   ]

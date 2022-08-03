@@ -1,0 +1,129 @@
+{
+  "main": {
+    "id": "d6ffd505853c3afa",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8f6fcadc777e8f2",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a32225b49f788c26",
+    "type": "split",
+    "children": [
+      {
+        "id": "86cfa522bdc1f747",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7e475589813af74",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9eafc5133ec81c9f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "639f64c6f7d0d75c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bfdc8dcbf6c6ed6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0a5135a837b5933",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcdce74b826c0bb3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "20113eaf00b03f9a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "38575912f2e75a7b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4a0f413e286c0588",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "f7e475589813af74",
+  "lastOpenFiles": [
+    "01.임시메모/10분의 중요성.md",
+    "01.임시메모/10분동안 줄넘기 하기.md",
+    "Template/Zettelkasten.md",
+    "01.임시메모/10분의중요성.md"
+  ]
+}

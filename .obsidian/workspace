@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "676e54c753410b87",
+        "id": "61119af58eebe8c2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "01.임시메모/컨트롤러 커스텀 확장하기 3.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#controller",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 322.5
   },
   "right": {
     "id": "bfdc8dcbf6c6ed6d",
@@ -73,13 +77,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01.임시메모/컨트롤러 커스텀 확장하기 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "01.임시메모/컨트롤러 커스텀 확장하기 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,22 +116,28 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "01.임시메모/컨트롤러 커스텀 확장하기 3.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 226.5
   },
-  "active": "676e54c753410b87",
+  "active": "61119af58eebe8c2",
   "lastOpenFiles": [
+    "01.임시메모/컨트롤러 커스텀 확장하기 1.md",
     "02.영구메모/영구메모-테스트.md",
-    "01.임시메모/무제노트.md",
-    "01.임시메모/10분동안 줄넘기 하기.md",
-    "01.임시메모/10분의 중요성.md",
-    "Template/Zettelkasten.md",
-    "01.임시메모/10분의중요성.md"
+    "01.임시메모/컨트롤러 커스텀 확장하기 2.md",
+    "01.임시메모/컨트롤러 커스텀 확장하기 3.md",
+    "01.임시메모/Pasted image 20220804102647.png.md",
+    "img/컨트롤러 커스텀 확장하기3/Pasted image 20220804103157.png",
+    "Pasted image 20220804102647.png",
+    "img/컨트롤러 커스텀 확장하기3/Pasted image 20220804102510.png",
+    "01.임시메모/부모가 영어를 해야하는이유.md",
+    "01.임시메모/10분동안 줄넘기 하기.md"
   ]
 }

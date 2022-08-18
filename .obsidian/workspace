@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c2096b30bf17260f",
+        "id": "676e54c753410b87",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01.임시메모/컨트롤러 커스텀 확장하기 1.md",
+            "file": "01.임시메모/회원가입 따라해서 점포가입 만들기 02.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#controller",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 300
   },
   "right": {
     "id": "bfdc8dcbf6c6ed6d",
@@ -77,14 +77,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01.임시메모/컨트롤러 커스텀 확장하기 1.md",
+                "file": "01.임시메모/회원가입 따라해서 점포가입 만들기 02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01.임시메모/컨트롤러 커스텀 확장하기 1.md",
+                "file": "01.임시메모/회원가입 따라해서 점포가입 만들기 02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01.임시메모/컨트롤러 커스텀 확장하기 1.md"
+                "file": "01.임시메모/회원가입 따라해서 점포가입 만들기 02.md"
               }
             }
           }
@@ -125,19 +125,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 300
   },
-  "active": "c2096b30bf17260f",
+  "active": "676e54c753410b87",
   "lastOpenFiles": [
-    "01.임시메모/회원가입 따라해서 점포가입 만들기 02.md",
-    "01.임시메모/회원가입 따라해서 점포가입 만들기 01.md",
-    "01.임시메모/컨트롤러 커스텀 확장하기 3.md",
-    "01.임시메모/컨트롤러 커스텀 확장하기 2.md",
     "01.임시메모/VSCode 로 PHP개발환경 만들기.md",
-    "img/VSCode 로 PHP개발환경 만들기/20220817-01.png",
-    "01.임시메모/컨트롤러 커스텀 확장하기 1.md",
     "02.영구메모/영구메모-테스트.md",
-    "01.임시메모/Pasted image 20220804102647.png.md",
-    "img/컨트롤러 커스텀 확장하기3/Pasted image 20220804103157.png"
+    "01.임시메모/무제노트.md",
+    "01.임시메모/10분동안 줄넘기 하기.md",
+    "01.임시메모/10분의 중요성.md",
+    "Template/Zettelkasten.md",
+    "01.임시메모/10분의중요성.md"
   ]
 }

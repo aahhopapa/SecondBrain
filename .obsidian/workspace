@@ -1,23 +1,15 @@
 {
   "main": {
-    "id": "d6ffd505853c3afa",
+    "id": "d1302bf8cd899eb7",
     "type": "split",
     "children": [
       {
-<<<<<<< .mine
-        "id": "676e54c753410b87",
-=======
-        "id": "b7ed58c8301d8545",
->>>>>>> .theirs
+        "id": "9f21c1b150c44e6e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< .mine
-            "file": "01.임시메모/회원가입 따라해서 점포가입 만들기 02.md",
-=======
-            "file": "01.임시메모/상품일람의 상품정보 Json설정 및 흐름.md",
->>>>>>> .theirs
+            "file": "00.나의 맵/3. 비즈니스/3.1 IT기술/3.1.1 AWS.md",
             "mode": "source",
             "source": false
           }
@@ -27,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a32225b49f788c26",
+    "id": "a8545d2d437db5e1",
     "type": "split",
     "children": [
       {
-        "id": "86cfa522bdc1f747",
+        "id": "543aee683c2f3753",
         "type": "tabs",
         "children": [
           {
-            "id": "f7e475589813af74",
+            "id": "ecb678c7432fe80a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,12 +35,12 @@
             }
           },
           {
-            "id": "9eafc5133ec81c9f",
+            "id": "6c20780a73788000",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#ec-cube",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +50,7 @@
             }
           },
           {
-            "id": "639f64c6f7d0d75c",
+            "id": "2e3befa198913bbf",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -69,29 +61,25 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 303.5
   },
   "right": {
-    "id": "bfdc8dcbf6c6ed6d",
+    "id": "64ba7919b8b722a9",
     "type": "split",
     "children": [
       {
-        "id": "b0a5135a837b5933",
+        "id": "654e50f37a3783ef",
         "type": "tabs",
         "children": [
           {
-            "id": "bcdce74b826c0bb3",
+            "id": "9a9c5a73fe1548c7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< .mine
-                "file": "01.임시메모/회원가입 따라해서 점포가입 만들기 02.md",
-=======
-                "file": "01.임시메모/상품일람의 상품정보 Json설정 및 흐름.md",
->>>>>>> .theirs
+                "file": "00.나의 맵/3. 비즈니스/3.1 IT기술/3.1.1 AWS.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -101,23 +89,19 @@
             }
           },
           {
-            "id": "20113eaf00b03f9a",
+            "id": "cef97a79a93c65c7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< .mine
-                "file": "01.임시메모/회원가입 따라해서 점포가입 만들기 02.md",
-=======
-                "file": "01.임시메모/상품일람의 상품정보 Json설정 및 흐름.md",
->>>>>>> .theirs
+                "file": "00.나의 맵/3. 비즈니스/3.1 IT기술/3.1.1 AWS.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "38575912f2e75a7b",
+            "id": "754174af21719b00",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -128,16 +112,12 @@
             }
           },
           {
-            "id": "4a0f413e286c0588",
+            "id": "153464d0d349ce0d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< .mine
-                "file": "01.임시메모/회원가입 따라해서 점포가입 만들기 02.md"
-=======
-                "file": "01.임시메모/상품일람의 상품정보 Json설정 및 흐름.md"
->>>>>>> .theirs
+                "file": "00.나의 맵/3. 비즈니스/3.1 IT기술/3.1.1 AWS.md"
               }
             }
           }
@@ -145,36 +125,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 100,
+    "collapsed": true
   },
-<<<<<<< .mine
-  "active": "676e54c753410b87",
-=======
-  "active": "b7ed58c8301d8545",
->>>>>>> .theirs
+  "active": "9f21c1b150c44e6e",
   "lastOpenFiles": [
-<<<<<<< .mine
-    "01.임시메모/VSCode 로 PHP개발환경 만들기.md",
-    "02.영구메모/영구메모-테스트.md",
-    "01.임시메모/무제노트.md",
-    "01.임시메모/10분동안 줄넘기 하기.md",
-    "01.임시메모/10분의 중요성.md",
-    "Template/Zettelkasten.md",
-    "01.임시메모/10분의중요성.md"
-
-
-
-=======
-    "01.임시메모/Form 설정 방법.md",
-    "01.임시메모/상품일람의 상품정보 Json설정 및 흐름.md",
-    "01.임시메모/회원가입 따라해서 점포가입 만들기 04.md",
-    "01.임시메모/회원가입 따라해서 점포가입 만들기 03.md",
-    "01.임시메모/회원가입 따라해서 점포가입 만들기 02.md",
-    "01.임시메모/Form 설정 방법2.md",
-    "01.임시메모/FormType에서 제공하는 이벤트.md",
-    "Template/Zettelkasten.md",
-    "img/회원가입 따라해서 점포가입 만들기/20220817-02.png",
-    "01.임시메모/회원가입 따라해서 점포가입 만들기 01.md"
->>>>>>> .theirs
+    "00.나의 맵/8. 클라우드/8.2 원드라이브.md",
+    "00.나의 맵/3. 비즈니스/3. 비즈니스.md",
+    "00.나의 맵/3. 비즈니스/3.2 SEO/3.2 SEO.md",
+    "00.나의 맵/3. 비즈니스/3.2 SEO/3.2.1.1 아호파파.md",
+    "00.나의 맵/1. 개인/1.2.1 초집중.md",
+    "00.나의 맵/3. 비즈니스/3.2 SEO/3.2.2 PBN.md",
+    "00.나의 맵/1. 개인/1.3 일기.md",
+    "00.나의 맵/1. 개인/1.1 개인자료.md",
+    "00.나의 맵/1. 개인/1. 개인.md",
+    "00.나의 맵/3. 비즈니스/3.1 IT기술/3.1 IT기술.md"
   ]
 }

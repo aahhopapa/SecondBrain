@@ -5,13 +5,20 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "tag:#ec-cube",
+      "query": "#분류1",
       "color": {
         "a": 1,
         "rgb": 14701138
+      }
+    },
+    {
+      "query": "#분류2",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
       }
     }
   ],
@@ -20,11 +27,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.54375,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "collapse-forces": false,
+  "centerStrength": 0.272542735042735,
+  "repelStrength": 8.5982905982906,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.7132754626224427,
-  "close": false
+  "linkDistance": 219,
+  "scale": 0.7132754626224439,
+  "close": true
 }

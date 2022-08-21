@@ -5,20 +5,27 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "#분류1",
+      "query": "#분류0",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "#분류2",
+      "query": "#분류1",
       "color": {
         "a": 1,
         "rgb": 14725458
+      }
+    },
+    {
+      "query": "#분류2",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
       }
     }
   ],
@@ -27,11 +34,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.54375,
   "lineSizeMultiplier": 1,
-  "collapse-forces": false,
-  "centerStrength": 0.272542735042735,
+  "collapse-forces": true,
+  "centerStrength": 0.047008547008547,
   "repelStrength": 8.5982905982906,
   "linkStrength": 1,
-  "linkDistance": 219,
-  "scale": 0.7132754626224439,
+  "linkDistance": 210,
+  "scale": 0.13168724279835473,
   "close": true
 }

@@ -29,7 +29,7 @@ public function getAbcd()
 ```
 
 결과 화면
-![[20220818-03.PNG]]
+![[20220818-03.png]]
 
 > 
 

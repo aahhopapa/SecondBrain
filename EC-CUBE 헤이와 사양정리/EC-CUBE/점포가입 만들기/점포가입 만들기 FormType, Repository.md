@@ -188,7 +188,7 @@ class StoreEntryController extends AbstractController
 
 ----
 ### 출처 :
--
+-　https://symfony.com/doc/current/forms.html#building-forms
 
 
 ### 연결메모

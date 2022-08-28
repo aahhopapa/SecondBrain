@@ -1,4 +1,4 @@
-### 날짜 :  2022-08-23 19:49
+### 날짜 :  2022-08-27 09:16
 
 ### 인덱스 : [[3.1.5 Git]]
 
@@ -8,63 +8,9 @@
 
 ### 메모 :
 
-- #### 우분투에서 git 설치
-1. 패키지 리스트를 업데이트
-```shell
-sudo apt-get install git
-```
-
-2.  깃을 설치
-```shell
-sudo apt install git
-```
-
-3. 설치된 깃 버전 확인
-```shell
-git --version
-```
-
-4. 깃으로 관리할 디렉토리로 이동하여 초기화 하기
-```shell
-cd /[깃으로-관리할-폴더]
-
-git init
-```
-
-
-5. 깃에 사용자 정보 설정 하기
- 프로젝트마다 다른 사용자 정보를 활용하려면 --global 옵션을 제외하고 실행한다
-```shell
-git config --global user.name [이름]
-
-git config --global user.mail [메일 주소]
-```
-
-설정후 사용자 정보를 확인한다
-```shell
-git config --list
-```
-
-- #### .ignore 파일 만들기
-```shell
-vim .gitignore
-```
-이제 [ 입력모드 ]로 들어가서 Git 에게 무시받을 정보(확장자, 폴더 등)를 입력해보자.
- [ i ] 누르면 입력모드가 된다.
-
-ignore할 파일 혹은 폴더를 작성
--   ESC : 입력모드 나가기
--   :wq : 저장 후 나가기
-
-작성한 ignore파일 확인하기
-```shell
-cat .gitignore
-```
-
-
 - #### 리모트 저장소와 연결 하기 
 
-![[리눅스에 깃 설치 및 초기 설정 명령어 정리-01.png]]
+![[GitLab 리모트 저장소와 연결하고 Pull하기.png.png]]
 저장소 주소 확인: GitLab 
 
 기존 워킹 디렉토리에 새 리모트 저장소를  추가
@@ -105,17 +51,17 @@ git pull origin master --allow-unrelated-histories
 
 ----
 ### 출처 :
-- [깃저장소에 처음 추가하는 법-리모트](https://velog.io/@leyuri/Git-remote-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%B6%94%EA%B0%80%ED%95%98%EB%8A%94-%EB%B2%95)
-- [리눅스 git .ignore 추가 ](https://gbsb.tistory.com/11).
 - [git pull 하기](https://sin0824.tistory.com/11)
 - [Git-fatal-refusing-to-merge-unrelated-histories-해결-방법](https://somjang.tistory.com/entry/Git-fatal-refusing-to-merge-unrelated-histories-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95)
 - [git commit 편집 에디터 바꾸기](https://siyoon210.tistory.com/29)
 - [Git변경사항 확인하기 (log, diff)](https://yuja-kong.tistory.com/46)
 
 
-
 ### 연결메모
 -
+
+
+
 
 
 

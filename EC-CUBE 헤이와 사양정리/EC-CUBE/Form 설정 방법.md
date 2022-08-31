@@ -27,19 +27,45 @@ $form->add('store_address', ChoiceType::class, [
 
 \\app\\Customize\\Entity\\ShopStore.php
 ```php
-        /**
-         * getShopStore 
-         * Form Typeに使われるメソッド
-         *
-         * @return string
-         */
-        public function getShopStoress()
-        {
-            return $this->getName().'add moji'.;
-        }
+/**
+ * getShopStore 
+ * Form Typeに使われるメソッド
+ *
+ * @return string
+ */
+public function getShopStoress()
+{
+	return $this->getName().'add moji'.;
+}
 
 ```
+
 여기서 getName() 이외에도 셀렉트박스에 출력하고 싶은 글로 수정하면 된다
+
+----
+
+\\app\\Customize\\Form\\Extension\\CustomizeOrderType.php
+```php
+$values = array_map(function ($age) {
+    return $age."代";
+}, range(10, 90, 10));
+
+$form->add('abcd', ChoiceType::class, [
+    'choices' => array_combine($values, $values) + ["それ以上" => "それ以上db"],
+    'placeholder' => '指定なし'
+]);
+```
+
+\\app\\Customize\\Entity\\OrderTrait.php
+```php
+public function getAbcd()
+{
+	return null;
+}
+```
+
+결과 화면
+![[20220818-03.png]]
 
 ----
 ### 출처 :

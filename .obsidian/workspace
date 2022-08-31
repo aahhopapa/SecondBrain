@@ -4,50 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9f21c1b150c44e6e",
+        "id": "704b378c75d3f3ce",
         "type": "leaf",
-        "dimension": 46.34146341463415,
         "state": {
-          "type": "empty",
-          "state": {}
-        },
-        "group": "2d606afe165dd618"
-      },
-      {
-        "id": "10ae49b90fb3f269",
-        "type": "leaf",
-        "dimension": 53.65853658536586,
-        "state": {
-          "type": "localgraph",
+          "type": "markdown",
           "state": {
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 3,
-              "localBacklinks": false,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": true,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 0.6554983534946928,
-              "close": false
-            }
+            "file": "EC-CUBE 헤이와 사양정리/정리 전/FormType에서 제공하는 이벤트.md",
+            "mode": "source",
+            "source": false
           }
-        },
-        "group": "2d606afe165dd618"
+        }
       }
     ],
     "direction": "vertical"
@@ -74,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ec-cube",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 444.5
   },
   "right": {
     "id": "64ba7919b8b722a9",
@@ -111,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "EC-CUBE 헤이와 사양정리/정리 전/FormType에서 제공하는 이벤트.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "EC-CUBE 헤이와 사양정리/정리 전/FormType에서 제공하는 이벤트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -148,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "EC-CUBE 헤이와 사양정리/정리 전/FormType에서 제공하는 이벤트.md"
+              }
             }
           }
         ]
@@ -158,17 +128,17 @@
     "width": 186,
     "collapsed": true
   },
-  "active": "9f21c1b150c44e6e",
+  "active": "704b378c75d3f3ce",
   "lastOpenFiles": [
-    "3.1.10 CI/CD.md",
-    "00.나의 맵/3. 비즈니스/3.1 IT기술/3.1 IT기술.md",
-    "00.나의 맵/3. 비즈니스/3.2 SEO/3.2 SEO.md",
-    "00.나의 맵/3. 비즈니스/3.1 IT기술/3.1.7.1 CDN.md",
-    "00.나의 맵/3. 비즈니스/3.1 IT기술/3.1.7.2 Redis.md",
-    "00.나의 맵/3. 비즈니스/3.3 트레이딩/3.3 트레이딩.md",
-    "00.나의 맵/파일정리.md",
-    "00.나의 맵/1. 개인/1. 개인.md",
-    "00.나의 맵/3. 비즈니스/3.1 IT기술/3.1.10 디자인과 개발원칙.md",
-    "00.나의 맵/3. 비즈니스/3.1 IT기술/3.1.9 도커.md"
+    "EC-CUBE 헤이와 사양정리/정리 전/이벤트 리스너 관련 정보 URL 모음.md",
+    "EC-CUBE 헤이와 사양정리/정리 전/상품일람의 상품정보 Json설정 및 흐름.md",
+    "EC-CUBE 헤이와 사양정리/정리 전/회원가입 따라해서 점포가입 만들기 02.md",
+    "EC-CUBE 헤이와 사양정리/정리 전/FormType에서 제공하는 이벤트.md",
+    "EC-CUBE 헤이와 사양정리/EC-CUBE/index.twig에서 컨트롤러 통해 confirm.twig로 데이터 전달.md",
+    "EC-CUBE 헤이와 사양정리/정리 전/EC-CUBE 회원 등록화면 기존 소스.md",
+    "EC-CUBE 헤이와 사양정리/EC-CUBE/Form 설정 방법.md",
+    "EC-CUBE 헤이와 사양정리/정리 전/Form 설정 방법2.md",
+    "EC-CUBE 헤이와 사양정리/EC-CUBE/환경설정 .env 파일.md",
+    "EC-CUBE 헤이와 사양정리/EC-CUBE/커스텀 폼 필드 타입 만드는 법.md"
   ]
 }

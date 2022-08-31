@@ -70,11 +70,11 @@ class StoreEntryType extends AbstractType
 리포지토리에서 폼에 새롭게 추가할 함수도 하나 만들어주자
 \\app\\Customize\\Repository\\StoreEntryRepository.php
 ```php
-    public function newStore()
-    {
-        $Store = new \Customize\Entity\StoreEntry();
-        return $Store;
-    }
+public function newStore()
+{
+	$Store = new \Customize\Entity\StoreEntry();
+	return $Store;
+}
 ```
 
 폼과 리포지토리를 맞추었으니

@@ -17,18 +17,18 @@ use Eccube\Form\Type\AddressType;
 
 ```php
 public function buildForm(FormBuilderInterface $builder, array $options)
-    {
-        $builder
-            ->add('name', TextType::class, [
-                'required' => false,
-                'constraints' => [
-                    new Assert\Length([
-                        'max' => $this->eccubeConfig['eccube_stext_len'],
-                    ]),
-                ],
-            ])
-            ->add('address', AddressType::class);
-    }
+{
+	$builder
+		->add('name', TextType::class, [
+			'required' => false,
+			'constraints' => [
+				new Assert\Length([
+					'max' => $this->eccubeConfig['eccube_stext_len'],
+				]),
+			],
+		])
+		->add('address', AddressType::class);
+}
 
 ```
 

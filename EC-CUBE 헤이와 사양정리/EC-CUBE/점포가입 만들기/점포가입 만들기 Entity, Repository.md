@@ -235,13 +235,12 @@ if (!class_exists('\Customize\Entity\StoreEntry')) {
             $this->Pref = $pref;
             return $this;
         }
-
-
     }
 }
 ```
 
 \\app\\Customize\\Repository\\StoreEntryRepository.php
+
 ```php
 <?php
 

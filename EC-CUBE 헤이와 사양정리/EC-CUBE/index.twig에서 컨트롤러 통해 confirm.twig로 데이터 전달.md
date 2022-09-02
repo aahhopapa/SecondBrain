@@ -65,8 +65,56 @@ public function testMethod(Request $request){
 }
 ```
 
+index.twig에서 confirm.twig로 넘기기 위해서
+또 하나 설정을 꼭 해야 하는것이 있다
+바로 토큰 값이다.
+
+index.twig
+```twig
+<div class="ec-off1Grid">
+	<form method="post" action="{{ url('anything') }}" novalidate class="h-adr">
+	{{ form_widget(form._token) }}
+</div>
+```
 
 
+twig에 토큰 값을 추가 하지 않으면 
+>{{ form_widget(form._token) }}
+
+컨트롤러에서 isValid() 가 false가 되며 디버깅을 보면 에러를 담고 있다.
+
+![[index.twig에서 컨트롤러 통해 confirm.twig로 데이터 전달2.png]]
+
+controller.php
+```php
+// Request가 post로 전달되었는지 확인
+$var1 = $form->isSubmitted();
+if($var1) {
+	// post로 전달되었을 경우만 isValid 메소드를 호출할수있다. 
+	// 폼의 검증이 마쳐졌는지 확인
+	$var2 = $form->isValid();
+}
+
+// post로 전달되었고 검증도 마쳤다면 confirm.twig로 이동
+if ($var1 && $var2) {
+	switch ($request->get('mode')) {
+		case 'confirm':
+	        return $this->render('Anything/confirm.twig', [
+	                'form' => $form->createView(),
+	        ]);
+	
+	    case 'complete':
+	        return  [
+	            'form' => $form->createView(),
+	        ];
+    }
+} else {
+	// 아닌경우 index.twig로 남는다.
+	return  [
+		'form' => $form->createView(),
+	];
+}
+```
 
 ----
 ### 출처 :

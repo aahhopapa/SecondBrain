@@ -34,6 +34,9 @@ git clone 성공
 ### 연결메모
 - 
 
+### 블로그 작성
+- https://ahopapa.com/ko/gitlab-%ea%b9%83%eb%9e%a9-ssh-%ed%82%a4-%ec%82%ac%ec%9a%a9%ed%95%98%ec%97%ac-clone-%ed%95%98%ea%b8%b0/
+
 
 
 

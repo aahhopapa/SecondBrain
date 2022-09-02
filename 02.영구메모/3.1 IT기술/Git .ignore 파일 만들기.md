@@ -28,11 +28,13 @@ cat .gitignore
 ----
 ### 출처 :
 - [리눅스 git .ignore 추가 ](https://gbsb.tistory.com/11).
--
 
 
 ### 연결메모
 -
+
+### 블로그 기록
+- https://ahopapa.com/ko/git-ignore-%ed%8c%8c%ec%9d%bc-%eb%a7%8c%eb%93%a4%ea%b8%b0/
 
 
 

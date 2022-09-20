@@ -33,8 +33,7 @@ index.twig
 기본적으로 form 태그의 __action="{{ url('anything') }}"__ 의 anything 이 
 Request의 parameters에 추가 된다.
 
-button태그의 __name="mode"__ 는 키,  __value="confirm"__  이 벨류가 되는 어레이 가 되어 
-Request의 parameters에 추가 된다.
+button태그의 __name="mode"__ 는 키,  __value="confirm"__  이 벨류가 되는 어레이 가 되어 Request의 parameters에 추가 된다.
 
 ![[index.twig에서 컨트롤러 통해 confirm.twig로 데이터 전달.png]]
 

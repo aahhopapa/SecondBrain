@@ -46,10 +46,14 @@ git config --global user.mail [메일 주소]
 git config --list
 ```
 
+만약  설정한 사용자 정보를 다시 변경하려고 한다면 위의 명령문을 
+변경하고 싶은 이름과 메일 주소로 다시 입력 하면 된다.
+
 ----
 ### 출처 :
 - [깃저장소에 처음 추가하는 법-리모트](https://velog.io/@leyuri/Git-remote-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%B6%94%EA%B0%80%ED%95%98%EB%8A%94-%EB%B2%95)
 
+- [git config 유저네임, 메일, 변경및 삭제하는법](https://webisfree.com/2018-07-26/git-config-%EC%84%A4%EC%A0%95-%ED%99%95%EC%9D%B8-%EB%B0%8F-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0)
 
 ### 연결메모
 -

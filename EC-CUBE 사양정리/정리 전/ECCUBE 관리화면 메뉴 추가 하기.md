@@ -142,9 +142,34 @@ class BannerAdminController extends AbstractController
 
 ```
 
+Twig에 추가한 set 파라미터와 eccube_nav.yaml 에 추가해준 Children의 파라메터 명과 일치하는것을
+확인 해야한다.
+
+\\app\\template\\admin\\Banner\\index.twig
+```twig
+{% set menus = ['banner', 'banner_master'] %}
+```
+
+app\\config\\eccube\\packages\\eccube_nav.yaml
+```yaml
+#
+# 생략
+#
+children:
+	banner_master:
+		name: admin.banner.banner_list
+		url: admin_banner
+	banner_edit:
+		name: admin.banner.banner_registration
+		url: admin_banner_new
+```
+
 화면에 출력 한 결과
 
 ![[Pasted image 20221011105644.png]]
+
+
+
 
 ----
 ### 출처 :

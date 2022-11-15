@@ -36,7 +36,7 @@ if (isset($searchData['sale_type']) && $salecount = count($searchData['sale_type
 
 
 ### 연결메모
--
+- [[PHP isset, empty, is_null 차이점]]
 
 
 

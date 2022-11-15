@@ -50,7 +50,7 @@ public function doctrineTest1()
 ![[Doctrine에서 Entity정의 할때 cascade 사용.png]]
 
 
-해결방법은 Anything.php 에서 AnythingDetail과 관계 설정에서 cascade 를 추가 하면 된다.
+해결방법은 Anything.php 에서 AnythingDetail 과 관계 설정에서 cascade 를 추가 하면 된다.
 > cascade={"persist", "remove"}
 
 Anything.php

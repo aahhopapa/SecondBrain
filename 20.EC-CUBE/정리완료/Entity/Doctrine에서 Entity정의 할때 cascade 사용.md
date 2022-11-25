@@ -1,8 +1,8 @@
 ### 날짜 :  2022-09-15 19:33
 
-### 인덱스 :
+### 인덱스 : [[3.1.3.5.1 Symfony]]
 
-### 태그 :
+### 태그 : #Doctrine
 
 ----
 
@@ -53,6 +53,8 @@ public function doctrineTest1()
 해결방법은 Anything.php 에서 AnythingDetail 과 관계 설정에서 cascade 를 추가 하면 된다.
 > cascade={"persist", "remove"}
 
+==cascade는 종속==이라는 의미이다.
+
 Anything.php
 ```php
 @ORM\OneToMany(targetEntity="Customize\Entity\AnythingDetail", mappedBy="Anything", cascade={"persist", "remove"})
@@ -70,7 +72,7 @@ Anything.php
 
 
 ### 연결메모
--
+- [[Doctrine에서 관계별 Insert할때 순서]]
 
 
 

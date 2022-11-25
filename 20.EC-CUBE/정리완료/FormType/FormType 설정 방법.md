@@ -1,8 +1,8 @@
 ### 날짜 :  2022-08-18 14:08
 
-### 인덱스 :
+### 인덱스 : [[3.1.3.5.1 Symfony]]
 
-### 태그 : #ec-cube, #costomize, #Form
+### 태그 : #ec-cube, #costomize, #FormType
 
 ----
 

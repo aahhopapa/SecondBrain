@@ -1,8 +1,8 @@
 ### 날짜 :  2022-08-18 09:18
 
-### 인덱스 :
+### 인덱스 : [[3.1.3.5.1 Symfony]]
 
-### 태그 : #ec-cube, #costomize, #Entity, #Repository
+### 태그 : #ECCUBE, #costomize, #Entity, #Repository
 
 ----
 
@@ -283,7 +283,7 @@ class StoreEntryRepository extends AbstractRepository
 
 
 ### 연결메모
--
+- 
 
 
 

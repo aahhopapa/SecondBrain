@@ -1,6 +1,6 @@
 ### 날짜 :  2022-09-12 13:38
 
-### 인덱스 :
+### 인덱스 : [[3.1.3.5.1 Symfony]]
 
 ### 태그 : #Doctrine
 
@@ -8,7 +8,7 @@
 
 ### 메모 :
 
-isset()메소드는 배열의 키값이 있는지 확인한다.
+isset() 메소드는 배열의 키값이 있는지 확인한다.
 아래의 경우 $searchData { 'sale_type' : "123" } 배열에 123의 값을 가진 sale_type 가 있으므로
 true를 반환하게 된다.
 ```php
@@ -37,6 +37,7 @@ if (isset($searchData['sale_type']) && $salecount = count($searchData['sale_type
 
 ### 연결메모
 - [[PHP isset, empty, is_null 차이점]]
+- [[Doctrine에서 Entity정의 할때 cascade 사용]]
 
 
 

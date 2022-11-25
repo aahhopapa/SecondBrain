@@ -1,14 +1,14 @@
 ### 날짜 :  2022-09-14 14:19
 
-### 인덱스 :
+### 인덱스 : [[3.1.3.5.1 Symfony]]
 
-### 태그 :
+### 태그 : #ECCUBE
 
 ----
 
 ### 메모 :
 
-하려고 하는 잡업은 첫번째 셀렉트박스를 선택하면
+하려고 하는 작업은 첫번째 셀렉트박스를 선택하면
 그것과 연관된 데이터로 구성된 두번째 셀렉트박스가 만들어진다.
 ![[셀렉트문 두개 구현.png]]
 
@@ -202,6 +202,8 @@ return [
 ```
 Twig의 익스텐션 기능을 이용해서 class_categories_as_json 함수를 정의 해서 
 detail.twig에서 사용하고 있는 것이였다.
+> use Twig\Extension\AbstractExtension;
+
 EccubeExtension에서 정의한 함수는 getClassCategoriesAsJson 메소드에서 실제 구현되고 있다.
 
 실제 구현되고 있는 코드를 보면 이렇다.

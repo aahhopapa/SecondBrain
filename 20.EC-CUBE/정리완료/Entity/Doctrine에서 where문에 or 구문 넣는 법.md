@@ -1,6 +1,6 @@
 ### 날짜 :  2022-09-12 13:38
 
-### 인덱스 :
+### 인덱스 : [[3.1.3.5.1 Symfony]]
 
 ### 태그 : #Doctrine
 
@@ -25,7 +25,8 @@ if (!empty($searchData['group_id']) && $searchData['group_id']) {
 }
 ```
 
-
+where 구문안에 넣어주면 된다.
+> $qb->expr()->orX( 조건1 , 조건2 ))
 
 ----
 ### 출처 :
@@ -33,7 +34,7 @@ if (!empty($searchData['group_id']) && $searchData['group_id']) {
 
 
 ### 연결메모
--
+- [[Doctrine에서 where문에 in 넣는 법]]
 
 
 

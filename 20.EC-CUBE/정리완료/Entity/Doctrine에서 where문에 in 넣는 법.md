@@ -28,7 +28,34 @@ if (isset($searchData['sale_type']) && $salecount = count($searchData['sale_type
 }
 ```
 
+리포지토리에서 in 구문쓴 Doctrine SQL 쿼리 작성법
 
+ShopStoreRepository.php
+```php
+    public function getQueryBuilderByStoreNumber($searchData)
+    {
+        $qb = $this->createQueryBuilder('s')
+        ->select('s');
+        
+        $qb
+        ->andWhere($qb->expr()->in('s.number', ':number'))
+        ->andWhere($qb->expr()->in('s.Group', ':group_id'))
+        ->setParameter('number', $searchData['number'])
+        ->setParameter('group_id', $searchData['group_id']);
+        $query = $qb->getQuery();
+        $result = $query->getResult();
+        return $result;
+    }
+```
+
+위에 작성한 리포지토리 메소드의 파라메터를 넣어 전달한다.
+CustomizeOrderType.php
+```php
+$ShopStores = $this->shopStoreRepository->getQueryBuilderByStoreNumber([
+    'number' => $preShopStoreNumberArray,
+    'group_id' => $groupIdArray
+]);
+```
 
 ----
 ### 출처 :

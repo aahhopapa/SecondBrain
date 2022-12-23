@@ -19,9 +19,10 @@ git clone https://github.com/aahhopapa/aahhopapa.git
 > 구글 드라이브에 업로드 예정
 
 .htaccess 파일 수정하기
-주석처리하기
+주석처리하기  ==다시 로컬에서 사용할때 필수 ==
 > RewriteBase /   
 
+ 
 DB덤프파일 임포트 하기
 > 구글 드라이브에 업로드 예정
 

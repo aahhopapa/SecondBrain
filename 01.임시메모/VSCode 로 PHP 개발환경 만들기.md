@@ -12,6 +12,8 @@ PHP IntelliSense 설치
 PHP intellisense for codeigniter 설치
 PHP Debug 설치
 
+Remote SSH
+Remote Editing Configuration Files
 php intelephense
 phpdoc comment
 php namespace resolver
@@ -23,7 +25,7 @@ twig -whatwedo
 twig language
 twig language2
 vscode great icons
-bracket pair colorizer
+-- bracket pair colorizer
 emmet live
 
 

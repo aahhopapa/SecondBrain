@@ -12,6 +12,22 @@ PHP IntelliSense 설치
 PHP intellisense for codeigniter 설치
 PHP Debug 설치
 
+php intelephense
+phpdoc comment
+php namespace resolver
+html snippets
+javascript code snippets
+symfony code snippets
+symfony for VSCode
+twig -whatwedo
+twig language
+twig language2
+vscode great icons
+bracket pair colorizer
+emmet live
+
+
+
 ![[20220817-01.png]]
 
 

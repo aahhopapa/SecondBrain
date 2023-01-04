@@ -58,10 +58,58 @@ git config --list
 ### 연결메모
 -
 
- 
+
+### 블로그 작성
+- https://ahopapa.com/ko/%ec%9a%b0%eb%b6%84%ed%88%ac%ec%97%90%ec%84%9c-git-%ec%84%a4%ec%b9%98%ed%95%98%ea%b8%b0/
 
 
+---
+## 일본어
 
 
+### Ubuntuでgitをインストールする方法
+
+1. パッケージリストを更新
+```shell
+sudo apt-get install git
+```
+
+2. Gitをインストール
+```shell
+sudo apt install git
+```
+
+3. インストールした Git バージョン確認
+```shell
+git --version
+```
+
+4. Gitで管理するディレクトリに移動して初期化する
+```shell
+cd /[Gitで管理するディレクトリ]
+
+git init
+```
 
 
+5. Gitにユーザー情報を設定する
+  プロジェクトごとに異なるユーザー情報を利用するには、 --global オプションを除いて実行します。
+```shell
+git config --global user.name [名前]
+
+git config --global user.mail [メールアドレス]
+```
+
+設定後、ユーザー情報を確認する
+```shell
+git config --list
+```
+
+**設定したユーザー情報をもう一度変更**したい場合は、上記(5)の文を
+変更したい名前とメールアドレスに再入力すればよい。
+
+
+---
+### 블로그 기록
+
+https://ahopapa.com/ubuntu-git-%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab-%e6%96%b9%e6%b3%95/

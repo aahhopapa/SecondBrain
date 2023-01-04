@@ -32,7 +32,26 @@ Username : DB접속명
 ### 연결메모
 -
 
+### 블로그 기록
+- https://ahopapa.com/ko/mysql-workbench-ssh-db%ec%97%b0%ea%b2%b0/
 
 
+---
+
+## 일본어
+
+connection Name : （任意）本人が定めるコネクション名 connection Method :
+
+SSH Hostname: SSH サーバーアドレス SSH Username: サーバー接続名 (ex. ubuntu, user) SSH Key File：pemファイル
+
+---
+
+MySQL Hostname：DBサーバーアドレス MySQL Server Port: ポート Username : DB接続名
+
+
+---
+
+### 블로그 기록
+https://ahopapa.com/mysql-workbench-ssh-db-%e6%8e%a5%e7%b6%9a-%e6%96%b9%e6%b3%95/
 
 

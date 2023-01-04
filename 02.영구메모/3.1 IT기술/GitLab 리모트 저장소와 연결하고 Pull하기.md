@@ -2,7 +2,7 @@
 
 ### 인덱스 : [[3.1.5 Git]]
 
-### 태그 : #Linux
+### 태그 : #Linux #GitLab 
 
 ----
 
@@ -61,9 +61,59 @@ git pull origin master --allow-unrelated-histories
 -
 
 
+### 블로그 기록
+- https://ahopapa.com/ko/gitlab-%eb%a6%ac%eb%aa%a8%ed%8a%b8-%ec%a0%80%ec%9e%a5%ec%86%8c%ec%99%80-%ec%97%b0%ea%b2%b0%ed%95%98%ea%b3%a0-pull%ed%95%98%ea%b8%b0/
 
 
 
+---
+
+## 일본어
 
 
+### GitLabリモートリポジトリとの接続
 
+リモートリポジトリの確認：GitLab
+
+既存のワーキングディレクトリに新しいリモートリポジトリを追加する
+**git remote add <名>**
+```bash
+git remote add origin [https://httpsアドレス]
+```
+**origin**という名前で追加しました
+
+
+**リモートリポジトリにあるプロジェクトをローカルリポジトリにインポートする方法は3つあります。**
+1. git pull 
+2. git fetch  
+3. git clone
+
+#### **git pullとは**
+> git pull = git fetch + git merge
+
+
+```bash
+git pull [リモートリポジトリの名] [リモートリポジトリのブランチの名]
+```
+
+git pull 命令ができない場合は、**"git pull origin master"** コマンドを入力してみよう！
+```bash
+git pull pull origin master
+```
+
+プルしたいのですが、すでに資料があり、このようなエラーが発生した場合
+```bash
+fatal: refusing to merge unrelated histories
+```
+
+下のコードを入力して実行すればよい。
+```bash
+git pull origin master --allow-unrelated-histories
+```
+
+
+---
+
+### 블로그 기록
+
+https://ahopapa.com/gitlab-%e3%83%aa%e3%83%a2%e3%83%bc%e3%83%88%e3%83%aa%e3%83%9d%e3%82%b8%e3%83%88%e3%83%aa-%e6%8e%a5%e7%b6%9a-%e3%83%97%e3%83%ab/

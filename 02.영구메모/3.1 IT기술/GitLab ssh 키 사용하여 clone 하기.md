@@ -38,6 +38,24 @@ git clone 성공
 - https://ahopapa.com/ko/gitlab-%ea%b9%83%eb%9e%a9-ssh-%ed%82%a4-%ec%82%ac%ec%9a%a9%ed%95%98%ec%97%ac-clone-%ed%95%98%ea%b8%b0/
 
 
+----
+## 일본어 
 
+pemキーが必要なので
+まず、C:/Users/ユーザー名/.sshに入り、あるか確認します。
+ない場合はsshを作成する必要があります。（作成方法は下のソースを参照してください）
 
+***1. gitbashに以下のコマンドを入力する***
+```shell
+eval $(ssh-agent)
+```
+Agent pid が出たら成功
 
+***2. GITLABのプロジェクトページにあるcloneボタンを押すとclone with sshが表示されます。***
+
+gitbashで次のコマンドを入力する
+```shell
+git clone [깃랩-저장소-ssh-住所]
+```
+
+git clone 成功

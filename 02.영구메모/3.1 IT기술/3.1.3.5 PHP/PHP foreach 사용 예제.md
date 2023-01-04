@@ -1,8 +1,8 @@
 ### 날짜 :  2022-12-12 11:00
 
-### 인덱스 :
+### 인덱스 : [[3.1.3.5 PHP]]
 
-### 태그 :
+### 태그 : 
 
 <span style="color: red">강조</span> ==강조==
 
@@ -25,7 +25,7 @@ dump($array);
 dump($arr);
 >"1" 
 >"2" 
->. . .省略. . .
+>. . .생략. . .
 >"10" 
 >}
 
@@ -33,7 +33,7 @@ dump($array);
 >array (10) { 
 >	[0]=> "1" 
 >	[1]=> "2" 
->	. . .省略. . .
+>	. . .생략. . .
 >	[9]=> "10" 
 >}
 
@@ -74,7 +74,7 @@ foreach ($arr as $key => $val) {
 >index Value: 0
 >index Value: 1
 >index Value: 2
->. . .省略. . .
+>. . .생략. . .
 >index Value: 9
 
 
@@ -85,12 +85,85 @@ foreach ($arr as $key => $val) {
 
 
 ### 연결메모
--
+- 
+
+### 블로그 기록
+- https://ahopapa.com/ko/php-foreach-%ec%82%ac%ec%9a%a9-%ec%98%88%ec%a0%9c/
 
 
+----
+## 일본어
 
 
+### foreach 使用例 1
+
+```php
+$array = array("1", "2", "3", "4", "5", "6", "7", "8", "9", "10");
+
+foreach ($array as $arr) {
+  dump($arr);
+}
+dump($array);
+```
+
+結果 :
+dump($arr);
+>"1" 
+>"2" 
+>. . .省略. . .
+>"10" 
+>}
+
+dump($array);
+>array (10) { 
+>	[0]=> "1" 
+>	[1]=> "2" 
+>	. . .省略. . .
+>	[9]=> "10" 
+>}
+
+### foreach 使用例 2
+
+```php
+$array = array("1", "2", "3", "4", "5", "6", "7", "8", "9", "10");
+
+foreach ($array as $key => $value) {
+  echo "key: " . $key . "\n";
+  echo "value: " . $array[$key] . "\n";
+}
+```
+
+結果 :
+>key: 0
+>value: "1"
+>key: 1
+>value: "2"
+>. . .省略. . .
+>key: 9
+>value: "10"
+>
 
 
+### foreach 使用例 3
+
+```php
+$array = array("1", "2", "3", "4", "5", "6", "7", "8", "9", "10");
+$index = 0;
+foreach ($arr as $key => $val) {
+  echo "index Value:".$index."\n";
+  $index++;
+}
+```
+
+結果 :
+>index Value: 0
+>index Value: 1
+>index Value: 2
+>. . .省略 . .
+>index Value: 9
 
 
+---
+### 블로그 기록
+
+https://ahopapa.com/php-foreach-%e4%bd%bf%e3%81%84%e6%96%b9/

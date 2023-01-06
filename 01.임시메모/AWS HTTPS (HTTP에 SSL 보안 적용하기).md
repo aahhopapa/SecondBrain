@@ -27,3 +27,6 @@ https://kingofbackend.tistory.com/197
 # AWS 인증서 발급 받아 https 적용하기 - aws certificate htt
 
 https://bsssss.tistory.com/1084
+
+
+## aws 로드밸런서 없이 https 연결
